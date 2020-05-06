@@ -1,0 +1,131 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+body{
+counter-reset: section 0;
+margin:0 auto;
+min-width:1200px;
+background-color:#fff;
+}
+body,td,th,div,ul,li{
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+	
+
+}
+li{ list-style:none;}
+h1,h2,h3,h4,h5,h6,h7,h8,p,ul{ margin:0; padding:0;}
+img{ border:0px;}
+a {font-family:"Microsoft YaHei";
+	font-size: 14px;
+	color: #54565c;}
+a:link {font-family:"Microsoft YaHei";
+	text-decoration: none;
+	color: #54565c;}
+a:visited {font-family:"Microsoft YaHei";
+	text-decoration: none;
+	color: #54565c;}
+a:hover {font-family:"Microsoft YaHei";
+	text-decoration: none;
+	color: #086398;}
+a:active {font-family:"Microsoft YaHei";
+	text-decoration: none;
+	color: #505050;}
+	
+/*年度盛典专题页开始*/
+
+/*导航开始*/
+#sphead{ width:100%; height:54px;background:#287086; position: fixed; top:0px;bottom:0px;z-index:1000;filter:alpha(opacity=70);  
+      -moz-opacity:0.7;  
+      -khtml-opacity: 0.7;  
+      opacity: 0.7;   }
+.sphead980{ width:1200px; margin:0 auto; height:50px;}
+.spheadmenu{width:1200px; height:50px;text-align:center;}
+.spheadmenu li{ line-height:50px;float: left;font-size:14px; color:#ffffff;}
+.spheadmenu li a{ color:#ffffff; padding:0 70px;}
+/*导航结束*/
+
+/*banner开始*/
+#spbanner{width:100%; height:533px; margin:0 auto; text-align:center; background:url(../images/banner_bg.jpg); }
+#spbanner img{width:1200px; height:533px; margin:0 auto; text-align:center;}
+
+/*banner结束*/
+
+/*大会概况*/
+#introduction{width:1200px;margin:60px auto 0 auto; }
+.htitle{width:1024px; height:35px; margin:0 auto; font-size:24px; color:#454545; text-align:center; line-height:35px; font-weight:bold;}
+.spintroduct{width:1200px; height:300px; padding-top:20px;margin:0 auto;font-size:16px;color:#454545}
+.spintroduct p{width:1000px; margin:0 100px; font-size:16px; color:#454545;  line-height:30px;}
+
+.show_main{width:980px;   margin:0 auto; padding:65px 0 0 0;}
+.no1_img{width:970px; height:373px; margin:0 auto 0 auto; padding:4px; border:1px solid #bb9f78;}
+.no1_jieshao{width:960px; height:200px; line-height:30px; font-size:16px; color:#454545; margin:0 auto; text-align:justify; }
+.no1_jieshao p{text-align:center;}
+.row{width:980px; height:500px;}
+.row_list{float:left; width:286px;  margin:10px 20px 10px 20px;}
+.row_list_img{width:282px; height:196px; border:1px solid #f1f1f1; padding:1px;}
+.row_list_img img{width:282px; height:196px;}
+.row_list_name{width:282px; height:30px; margin:10px auto 8px auto; font-size:16px; color:#454545; line-height:30px; font-weight:bold; text-align:center;}
+
+.row_list_jieshao{width:282px; height:280px; margin:0 auto 0 auto; font-size:15px; color:#454545; line-height:26px; text-align:justify; padding-bottom:20px;}
+/*概况结束*/
+
+
+#bangdan{width:100%; height:2800px; margin:0 auto; background:#f8f8f8;}
+.brand{width:1024px;  margin:0 auto;}
+.brand_bd{width:980px; height:175px; margin:40px auto 0 auto;}
+.brand_list{width:980px; height:20px; margin:20px auto 0 auto; line-height:30px;  color:#454545;}
+.brand_list a{color:#0b5699; padding:0 5px;font-size:16px;}
+.brand_list a:hover{color:#2674b9; padding:0 5px;font-size:16px;}
+
+
+
+/*主流媒体*/
+#meiti{width:1024px; height:330px; margin:106px auto 0 auto;}
+.me_left{float:left; width:726px; height:290px; margin:0 0 0 13px;}
+.me_right{float:left; width:214px; height:182px; background:url(../images/meiti_biaoti.jpg) no-repeat; margin:48px 0 0 49px;}
+/*主流媒体*/
+
+
+
+
+/*专家观点开始*/
+#view{width: 100%; margin:20px auto 0 auto; height:580px; background:#f8f8f8;}
+.view_main{width:1024px; margin:30px auto;}
+.view_photo{width:180px; height:180px; border-radius:50%; margin:0 auto; text-align:center;}
+.view_photo img{width:180px; height:180px;border-radius:50%; }
+.view_jieshao{width:720px; height:200px; margin:20px auto 0 auto;}
+.view_jieshao p{ font-size:16px; color:#454545; line-height:30px;}
+
+/*专家观点结束*/
+
+
+
+/*主办单位开始*/
+#host{width:100%; margin:0 auto;height:450px; background:#f2f2f2;}
+.conferebg{width:980px;padding-top:50px;margin:0 auto;text-align:center; background:#FFF;}
+.sponsorgm{width:980px;margin:0 auto; background:#FFF;}
+.gmspon{width:980px;float:left;height:320px;}
+.gmcm{float:left;margin-top:20px;width:300px;height:300px;margin-bottom:60px;}
+.gmcmstyle{width:173px;float:left;margin-top:130px;height:200px;padding-left:80px;padding-bottom:50px;}
+.gmcmstylel{width:173px;float:left;margin-top:125px;height:200px;padding-left:80px;padding-bottom:50px;}
+.gmcm  h1{width:173px;float:left;font-size:26px;padding-top:10px;line-height:35px;color:#444444;font-weight:100;}
+.mline{float:left;padding-left:50px;margin-top:60px;width:5px;height:300px;}
+.gmcmright{float:right;padding-left:30px;margin-top:50px;width:560px;height:300px;}
+.gmcmright  h1{width:360px;float:left;font-size:16px;padding-top:10px;line-height:35px;color:#666666;}
+.gmcmright  p{width:530px;float:left;font-size:16px;padding-top:20px;color:#666666;line-height:25px;font-weight:100px;}
+
+/*主办单位结束*/
+
+
+
+/*联系我们*/
+#contact{width:100%; margin:0 auto; }
+.con{width:980px; height:260px; margin:0 auto;}
+.con_left{float:left; width:420px;  line-height:36px; margin-top:30px; font-size:16px; color:#454545; }
+.con_right{float:right; width:300px;}
+
+/*联系我们*/
+
+.table1{wdith:920px; margin:10px auto 40px auto; text-align:center;}

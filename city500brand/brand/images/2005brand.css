@@ -1,0 +1,161 @@
+BODY {
+	MARGIN: 0px
+}
+TD {
+	FONT-SIZE: 12px;line-height:18px
+}
+a{color:#000000;line-height:18px;text-decoration:none}
+a:link{color:#000000;line-height:18px;text-decoration:none}
+a:hover{color:#000000;line-height:18px;text-decoration:underline}
+a:visited{color:#000000;line-height:18px;text-decoration:none}
+
+.blue{color:#003399;line-height:18px;text-decoration:underline}
+.blue:link{color:#003399;line-height:18px;text-decoration:underline}
+.blue:hover{color:#003399;line-height:18px;text-decoration:none}
+.blue:visited{color:#003399;line-height:18px;text-decoration:underline}
+
+
+.frameline {
+	BORDER-RIGHT: #1a2d44 1px solid; BORDER-LEFT: #1a2d44 1px solid; BORDER-BOTTOM: #1a2d44 1px solid
+}
+.frameline TD {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid
+}
+.frameline2 {
+	BORDER-RIGHT: #1a2d44 1px solid; PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 12px; PADDING-BOTTOM: 10px; BORDER-LEFT: #1a2d44 1px solid; COLOR: #ffc; PADDING-TOP: 10px; BORDER-BOTTOM: #1a2d44 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.frameline2 UL {
+	LIST-STYLE-POSITION: inside; MARGIN: 0px
+}
+.frameline2 LI {
+	MARGIN-BOTTOM: 10px
+}
+.frameline2 A {
+	COLOR: #ffc; TEXT-DECORATION: none
+}
+.frameline2 A:visited {
+	COLOR: #ffc; TEXT-DECORATION: none
+}
+.frameline2 A:hover {
+	COLOR: #ffc; TEXT-DECORATION: underline
+}
+.wenzi {
+	BORDER-RIGHT: #1a2d44 1px solid; PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 14px; PADDING-BOTTOM: 10px; BORDER-LEFT: #1a2d44 1px solid; LINE-HEIGHT: 20px; PADDING-TOP: 10px; BORDER-BOTTOM: #1a2d44 1px solid
+}
+.wenzi TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.wenzi A {
+	FONT-SIZE: 14px; MARGIN-BOTTOM: 3px; COLOR: #333; TEXT-DECORATION: none
+}
+.wenzi A:visited {
+	FONT-SIZE: 14px; COLOR: #333; TEXT-DECORATION: none
+}
+.wenzi A:hover {
+	FONT-SIZE: 14px; COLOR: #c60; TEXT-DECORATION: underline
+}
+.wenzi TABLE {
+	MARGIN-BOTTOM: 5px
+}
+.PhotoFrame {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #ccc 1px solid; BACKGROUND-COLOR: #fff
+}
+.photo IMG {
+	MARGIN-BOTTOM: 7px
+}
+.Photo {
+	MARGIN-BOTTOM: 5px
+}
+.photo A {
+	FONT-WEIGHT: bold; COLOR: #0000cc; TEXT-DECORATION: none
+}
+.photo A:visited {
+	COLOR: #0000cc; TEXT-DECORATION: none
+}
+.photo A:hover {
+	COLOR: #0000cc; TEXT-DECORATION: underline
+}
+.dongtai {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #666; LINE-HEIGHT: 150%; PADDING-TOP: 5px
+}
+.dongtai A {
+	FONT-SIZE: 18px; MARGIN-BOTTOM: 10px; COLOR: #c60; FONT-FAMILY: o¨²¨¬?; TEXT-DECORATION: none
+}
+.dongtai A:visited {
+	FONT-SIZE: 18px; COLOR: #c60; FONT-FAMILY: o¨²¨¬?; TEXT-DECORATION: none
+}
+.dongtai A:hover {
+	FONT-SIZE: 18px; COLOR: #060; FONT-FAMILY: o¨²¨¬?; TEXT-DECORATION: none
+}
+.style1 {
+	FONT-SIZE: 10px
+}
+.links {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; PADDING-BOTTOM: 3px; COLOR: #fff; PADDING-TOP: 8px; BORDER-BOTTOM: #fff 1px solid; BACKGROUND-COLOR: #2e3d56
+}
+.link2 {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 10px; COLOR: #fff; LINE-HEIGHT: 150%; PADDING-TOP: 10px
+}
+.link2 A {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.link2 A:visited {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.link2 A:hover {
+	COLOR: #ffc; TEXT-DECORATION: none
+}
+A.brandcss {
+	FONT-SIZE: 11px; COLOR: #003366; TEXT-DECORATION: none
+}
+A.brandcss:visited {
+	FONT-SIZE: 11px; COLOR: #003366; TEXT-DECORATION: none
+}
+A.brandcss:hover {
+	FONT-SIZE: 11px; COLOR: #003366; TEXT-DECORATION: underline
+}
+A.brandcss2 {
+	FONT-SIZE: 12px; COLOR: #333333; TEXT-DECORATION: none
+}
+A.brandcss2:visited {
+	FONT-SIZE: 12px; COLOR: #333333; TEXT-DECORATION: none
+}
+A.brandcss2:hover {
+	FONT-SIZE: 12px; COLOR: #333333; TEXT-DECORATION: underline
+}
+.brand500 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; LINE-HEIGHT: 180%; PADDING-TOP: 5px
+}
+.brand500 A {
+	COLOR: #c60; TEXT-DECORATION: none
+}
+.brand500 A:visited {
+	COLOR: #c60; TEXT-DECORATION: none
+}
+.brand500 A:hover {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+.agendatable TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; LINE-HEIGHT: 150%; PADDING-TOP: 5px
+}
+.copyright {
+	FONT-SIZE: 18px; COLOR: #cc0000; LINE-HEIGHT: 25px; FONT-FAMILY: ΊΪΜε
+}
+#paihang {
+	LINE-HEIGHT: 150%
+}
+#paihang A {
+	COLOR: #c60; TEXT-DECORATION: none
+}
+#paihang A:visited {
+	COLOR: #c60; TEXT-DECORATION: none
+}
+#paihang A:hover {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+.style2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px
+}
+.style3 {
+	COLOR: #cc6600
+}
